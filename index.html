@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>TicTacToe</title>
+</head>
+<body>
+    <header>
+        <h2>Choose your marker:</h2>
+        <button>X</button>
+        <button>O</button>
+    </header>
+    <div id="container">
+        <div class="row">
+            <button id="zero0" class="b00" onclick="playerOne.play(0,0,'00')"></button>
+            <button id="zero1" class="b01" onclick="playerOne.play(0,1,'01')"></button>
+            <button id="zero2" class="b02" onclick="playerOne.play(0,2,'02')"></button>
+        </div>
+        <div class="row">
+            <button id="one0" class="b10" onclick="playerOne.play(1,0,'10')"></button>
+            <button id="one1" class="b11" onclick="playerOne.play(1,1,'11')"></button>
+            <button id="one2" class="b12" onclick="playerOne.play(1,2,'12')"></button>
+        </div>
+        <div class="row">
+            <button id="two0" class="b20" onclick="playerOne.play(2,0,'20')"></button>
+            <button id="two1" class="b21" onclick="playerOne.play(2,1,'21')"></button>
+            <button id="two2" class="b22" onclick="playerOne.play(2,2,'22')"></button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

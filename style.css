@@ -1,0 +1,43 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.row button {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+#zero0,
+#zero1,
+#zero2 {
+    border-top: none;
+}
+
+#zero0,
+#one0,
+#two0 {
+    border-left: none;
+    font-size: 20px;
+}
+
+#zero2,
+#one2,
+#two2 {
+    border-right: none;
+    font-size: 20px;
+}
+
+#two0,
+#two1,
+#two2 {
+    border-bottom: none;
+    font-size: 20px;
+}
